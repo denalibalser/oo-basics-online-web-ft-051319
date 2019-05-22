@@ -1,13 +1,14 @@
 class Shoe
   attr_accessor :brand, :color, :size, :material, :condition
+  attr_writer :cobble
 
   def initialize(brand)
     @brand = brand
   end
 
-  def cobble=(cobble)
-    @cobble = cobble
-  end
+  #def cobble=(cobble)
+    #@cobble = cobble
+  #end
 
   def cobble
     @cobble
